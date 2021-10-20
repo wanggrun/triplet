@@ -12,6 +12,8 @@ See median_triplet_head.py for the median triplet loss. More updates are coming 
 
 ## COCO 2017
 
+## PASCAL VOC
+
 ## SYSU-30k
 
 This repo has been tested in the following environment.
