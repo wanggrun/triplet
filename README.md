@@ -8,7 +8,7 @@ This is the code of our paper "Towards Solving Inefficiency of Self-supervised R
 See median_triplet_head.py for the median triplet loss. More updates are coming soon.
 
 
-# about the paper
+# About the paper
 
 [Oral representation slices](https://drive.google.com/file/d/1lgEUss4UJS2HN2uuCYeFeY_E9cmF2G1y/view)
 
@@ -33,7 +33,7 @@ We next verify the effectiveness of our method on a more extensive data set, [SY
 Currently, SYSU-30k supports both [Google drive](https://drive.google.com/drive/folders/1MTxZ4UN_mbxjByZgcAki-H10zDzzeyuJ) collection and [Baidu Pan](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ#list/path=%2F) (code: 1qzv) collection.
 
 
-
+# Installation
 
 This repo has been tested in the following environment.
 
