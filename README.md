@@ -16,6 +16,12 @@ See median_triplet_head.py for the median triplet loss. More updates are coming 
 
 ## SYSU-30k
 
+
+We next verify the effectiveness of our method on a more extensive data set, [SYSU-30k](https://github.com/wanggrun/SYSU-30k), that is 30 times larger than ImageNet both in terms of category number and image number.
+
+
+
+
 This repo has been tested in the following environment.
 
 Pytorch1.9
