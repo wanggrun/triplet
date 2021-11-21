@@ -8,6 +8,17 @@ This is the code of our paper "Towards Solving Inefficiency of Self-supervised R
 See median_triplet_head.py for the median triplet loss. More updates are coming soon.
 
 
+# about the paper
+
+[Oral representation slices](https://drive.google.com/file/d/1lgEUss4UJS2HN2uuCYeFeY_E9cmF2G1y/view)
+
+[Poster](https://drive.google.com/file/d/1gHC2yr9vQjNBAaZChvU64ORXqzvoVG9_/view)
+
+[Leaderboard on SYSU-30k](https://paperswithcode.com/sota/person-re-identification-on-sysu-30k)
+
+
+# Experiments
+
 ## ImageNet
 
 ## COCO 2017
