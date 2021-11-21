@@ -19,6 +19,5 @@ See median_triplet_head.py for the median triplet loss. More updates are coming 
 This repo has been tested in the following environment.
 
 Pytorch1.9
+
 [OpenSelfSup](https://github.com/open-mmlab/OpenSelfSup)
-
-
