@@ -19,6 +19,8 @@ See median_triplet_head.py for the median triplet loss. More updates are coming 
 
 We next verify the effectiveness of our method on a more extensive data set, [SYSU-30k](https://github.com/wanggrun/SYSU-30k), that is 30 times larger than ImageNet both in terms of category number and image number.
 
+Currently, SYSU-30k supports both [Google drive](https://drive.google.com/drive/folders/1MTxZ4UN_mbxjByZgcAki-H10zDzzeyuJ) collection and [Baidu Pan](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ#list/path=%2F) (code: 1qzv) collection.
+
 
 
 
