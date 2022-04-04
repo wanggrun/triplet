@@ -38,7 +38,7 @@ An example of training script on COCO 2017:
 
 ```shell
 cd benchmarks/detection/
-python convert-pretrain-to-detectron2.py  xxxxxx/release_ep800.pth ${OUTPUT_FILE}
+python convert-pretrain-to-detectron2.py  xxxxxx/release_ep800.pth  xxxxxx/release_detection_ep800.pkl
 bash run.sh  configs/coco_R_50_C4_2x_moco.yaml   xxxxxx/release_detection_ep800.pkl
 ```
 
