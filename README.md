@@ -32,6 +32,7 @@ bash tools/dist_train.sh configs/selfsup/triplet/r50_bs4096_accumulate4_ep1000_f
 
 For object detection and instance segmentation tasks on COCO 2017, please go to the "triplet/benchmarks/detection/" folder and run the relevant scripts.
 
+Note: For the organizational structure of the COCO 2017 dataset and the installation of the operating environment, please check the official documentation of Detectron2.
 
 An example of training script on COCO 2017:
 
@@ -47,6 +48,10 @@ bash run.sh  configs/coco_R_50_C4_2x_moco.yaml   xxxxxx/release_detection_ep800.
 ## PASCAL VOC
 
 For PASCAL VOC07+12 Object Detection, please go to the "triplet/benchmarks/detection/" folder and run the relevant scripts.
+
+Note: For the organizational structure of the VOC07+12 dataset and the installation of the operating environment, please check the official documentation of Detectron2.
+
+It is worth noting that because the VOC dataset is much smaller than the COCO 2017 dataset, multiple experiments should be performed on VOC, and the average of the results of the multiple experiments should be reported.
 
 
 ```shell
