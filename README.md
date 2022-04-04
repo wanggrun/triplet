@@ -21,6 +21,13 @@ See median_triplet_head.py for the median triplet loss. More updates are coming 
 
 ## ImageNet
 
+An example of SSL training script on ImageNet:
+
+
+```shell
+bash tools/dist_train.sh configs/selfsup/triplet/r50_bs4096_accumulate4_ep1000_fp16_triplet_gpu12g.py 8
+```
+
 ## COCO 2017
 
 ## PASCAL VOC
