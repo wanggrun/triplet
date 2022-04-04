@@ -35,7 +35,7 @@ Currently, SYSU-30k supports both [Google drive](https://drive.google.com/drive/
 
 # Installation
 
-This repo has been tested in the following environment.
+This repo has been tested in the following environment. More precisely, this repo is a modification on the OpenSelfSup. Installation and preparation follow that repo. Please acknowledge the great work of the team of OpenSelfSup.
 
 Pytorch1.9
 
