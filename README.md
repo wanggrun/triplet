@@ -54,6 +54,9 @@ Note: For the organizational structure of the VOC07+12 dataset and the installat
 It is worth noting that because the VOC dataset is much smaller than the COCO 2017 dataset, multiple experiments should be performed on VOC, and the average of the results of the multiple experiments should be reported.
 
 
+An example of training script on PASCAL VOC07+12:
+
+
 ```shell
 cd benchmarks/detection/
 python convert-pretrain-to-detectron2.py  xxxxxx/release_ep800.pth  xxxxxx/release_detection_ep800.pkl
