@@ -28,6 +28,14 @@ An example of SSL training script on ImageNet:
 bash tools/dist_train.sh configs/selfsup/triplet/r50_bs4096_accumulate4_ep1000_fp16_triplet_gpu12g.py 8
 ```
 
+An example of linear evaluation script on ImageNet:
+
+```shell
+python tools/extract_backbone_weights.py  xxxxxxxxx//ssl_ep940.pth    xxxxxx/release_smooth_ep940.pth
+bash benchmarks/dist_train_linear.sh configs/benchmarks/linear_classification/imagenet/r50_last_cos.py  xxxxxx/release_smooth_ep940.pth
+```
+
+
 ## COCO 2017
 
 For object detection and instance segmentation tasks on COCO 2017, please go to the "triplet/benchmarks/detection/" folder and run the relevant scripts.

@@ -1,6 +1,6 @@
 import torch
 import argparse
-from polyaxon_client import tracking
+# from polyaxon_client import tracking
 
 def parse_args():
     parser = argparse.ArgumentParser(
@@ -13,12 +13,12 @@ def parse_args():
 
 
 def main():
-    base_path = tracking.get_data_paths()['ceph'] + '/'
-    output_dir = tracking.get_outputs_path()
+    # base_path = tracking.get_data_paths()['ceph'] + '/'
+    # output_dir = tracking.get_outputs_path()
 
     args = parse_args()
-    args.checkpoint = base_path + args.checkpoint
-    args.output = output_dir + args.output
+    # args.checkpoint = base_path + args.checkpoint
+    # args.output = output_dir + args.output
     assert args.output.endswith(".pth")
     ck = torch.load(args.checkpoint, map_location=torch.device('cpu'))
     output_dict = dict(state_dict=dict(), author="OpenSelfSup")
