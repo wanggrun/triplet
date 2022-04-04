@@ -32,6 +32,16 @@ bash tools/dist_train.sh configs/selfsup/triplet/r50_bs4096_accumulate4_ep1000_f
 
 For object detection and instance segmentation tasks on COCO 2017, please go to the "triplet/benchmarks/detection/" folder and run the relevant scripts.
 
+
+An example of training script on COCO 2017:
+
+
+```shell
+bash run.sh  configs/coco_R_50_C4_2x_moco.yaml   WHERE_ARE_THE_PRETRAIN_WEIGHTS/release_detection_ep800.pkl
+```
+
+
+
 ## PASCAL VOC
 
 For PASCAL VOC07+12 Object Detection, please go to the "triplet/benchmarks/detection/" folder and run the relevant scripts.
