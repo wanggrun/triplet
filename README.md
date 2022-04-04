@@ -30,7 +30,11 @@ bash tools/dist_train.sh configs/selfsup/triplet/r50_bs4096_accumulate4_ep1000_f
 
 ## COCO 2017
 
+For object detection and instance segmentation tasks on COCO 2017, please go to the "triplet/benchmarks/detection/" folder and run the relevant scripts.
+
 ## PASCAL VOC
+
+For PASCAL VOC07+12 Object Detection, please go to the "triplet/benchmarks/detection/" folder and run the relevant scripts.
 
 ## SYSU-30k
 
@@ -47,3 +51,6 @@ This repo has been tested in the following environment. More precisely, this rep
 Pytorch1.9
 
 [OpenSelfSup](https://github.com/open-mmlab/OpenSelfSup)
+
+
+[detectron2](https://github.com/facebookresearch/detectron2)
