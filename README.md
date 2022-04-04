@@ -48,6 +48,14 @@ bash run.sh  configs/coco_R_50_C4_2x_moco.yaml   xxxxxx/release_detection_ep800.
 
 For PASCAL VOC07+12 Object Detection, please go to the "triplet/benchmarks/detection/" folder and run the relevant scripts.
 
+
+```shell
+cd benchmarks/detection/
+python convert-pretrain-to-detectron2.py  xxxxxx/release_ep800.pth  xxxxxx/release_detection_ep800.pkl
+bash run.sh  configs/pascal_voc_R_50_C4_24k_moco.yaml   xxxxxx/release_detection_ep800.pkl
+```
+
+
 ## SYSU-30k
 
 
