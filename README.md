@@ -36,7 +36,7 @@ bash benchmarks/dist_train_linear.sh configs/benchmarks/linear_classification/im
 
 
 <em>This repo can achieve a 73.8% top-1 accuracy for 200 epochs' SSL training and a 75.9% top-1 accuracy for 700-900 epochs' SSL training on Imagenet. </em>
-  <table><thead><tr><th>Method</th><th>top-1 accuracy</th><th> epochs</th></tr></thead><tbody>
+  <table><sub><sup><thead><tr><th>Method</th><th>top-1 accuracy</th><th> epochs</th></tr></thead><tbody>
   	<tr><td>Random</td><td>4.4</td><td>0</td></tr>
   	<tr><td><a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Doersch_Unsupervised_Visual_Representation_ICCV_2015_paper.pdf" target="_blank" rel="noopener noreferrer">Relative-Loc</a></td><td>38.8</td><td>200</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/1803.07728" target="_blank" rel="noopener noreferrer">Rotation-Pred</a></td><td>47.0</td><td>200</td></tr>
@@ -52,7 +52,7 @@ bash benchmarks/dist_train_linear.sh configs/benchmarks/linear_classification/im
   	<tr><td><a href="https://arxiv.org/abs/2006.09882" target="_blank" rel="noopener noreferrer">SwAV (multi crop)</a></td><td>72.7</td><td>200</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>71.5</td><td>200</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>72.5</td><td>300</td></tr>
-  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>74.3</td><td>1000</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>74.3</td><td>1000</td></tr></sub></sup>
   </tbody></table>
 
 
