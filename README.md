@@ -89,14 +89,11 @@ bash run.sh  configs/coco_R_50_C4_2x_moco.yaml   xxxxxx/release_detection_ep800.
   	<tr><td>Random</td><td>35.6</td><td>31.4</td></tr>
   	<tr><td><a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Doersch_Unsupervised_Visual_Representation_ICCV_2015_paper.pdf" target="_blank" rel="noopener noreferrer">Relative-Loc</a></td><td>40.0</td><td>35.0</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/1803.07728" target="_blank" rel="noopener noreferrer">Rotation-Pred</a></td><td>40.0</td><td>34.9</td></tr>
-  	<tr><td><a href="https://arxiv.org/abs/1807.05520" target="_blank" rel="noopener noreferrer">DeepCluster</a></td><td>46.9</td><td>200</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/1805.01978" target="_blank" rel="noopener noreferrer">NPID</a></td><td>39.4</td><td>34.5</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/2002.05709" target="_blank" rel="noopener noreferrer">SimCLR</a></td><td>39.6</td><td>34.6</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/1911.05722" target="_blank" rel="noopener noreferrer">MoCo</a></td><td>40.9</td><td>35.5</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/2003.04297" target="_blank" rel="noopener noreferrer">MoCo v2</a></td><td>40.9</td><td>35.5</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>40.3</td><td>35.1</td></tr>
-  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>72.5</td><td>300</td></tr>
-  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>74.3</td><td>1000</td></tr>
   	<tr><td>Triplet</td><td>41.7</td><td>36.2</td></tr>
   </tbody></table>
 
@@ -118,6 +115,22 @@ cd benchmarks/detection/
 python convert-pretrain-to-detectron2.py  xxxxxx/release_ep800.pth  xxxxxx/release_detection_ep800.pkl
 bash run.sh  configs/pascal_voc_R_50_C4_24k_moco.yaml   xxxxxx/release_detection_ep800.pkl
 ```
+
+<em>This repo can achieve a 82.6% AP50(box), a 56.9% AP(box), and a 63.8% AP75(box) on VOC07+12. </em>
+  <table><thead><tr><th>Method</th><th>AP50</th><th> AP</th><th> AP75</th></tr></thead><tbody>
+  	<tr><td>supervised</td><td>81.6</td><td>54.2</td><td>54.2</td>59.8</tr>
+  	<tr><td>Random</td><td>59.0</td><td>32.8</td><td>31.6</td></tr>
+  	<tr><td><a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Doersch_Unsupervised_Visual_Representation_ICCV_2015_paper.pdf" target="_blank" rel="noopener noreferrer">Relative-Loc</a></td><td>80.4</td><td>55.1</td><td>61.2</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/1803.07728" target="_blank" rel="noopener noreferrer">Rotation-Pred</a></td><td>80.9</td><td>55.5</td><td>61.4</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/1805.01978" target="_blank" rel="noopener noreferrer">NPID</a></td><td>80.0</td><td>54.1</td><td>59.5</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2002.05709" target="_blank" rel="noopener noreferrer">SimCLR</a></td><td>79.4</td><td>51.5</td><td> 55.6</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/1911.05722" target="_blank" rel="noopener noreferrer">MoCo</a></td><td>81.4</td><td>56.0</td><td>62.2</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2003.04297" target="_blank" rel="noopener noreferrer">MoCo v2</a></td><td>82.0</td><td>56.6</td><td>62.9</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>81.0</td><td>51.9</td><td>56.</td</tr>
+  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>72.5</td><td>300</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>74.3</td><td>1000</td></tr>
+  	<tr><td>Triplet</td><td>82.6</td><td>56.9</td><td>63.8</td></tr>
+  </tbody></table>
 
 
 ## SYSU-30k
