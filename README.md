@@ -126,7 +126,7 @@ bash run.sh  configs/pascal_voc_R_50_C4_24k_moco.yaml   xxxxxx/release_detection
   	<tr><td><a href="https://arxiv.org/abs/2002.05709" target="_blank" rel="noopener noreferrer">SimCLR</a></td><td>79.4</td><td>51.5</td><td> 55.6</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/1911.05722" target="_blank" rel="noopener noreferrer">MoCo</a></td><td>81.4</td><td>56.0</td><td>62.2</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/2003.04297" target="_blank" rel="noopener noreferrer">MoCo v2</a></td><td>82.0</td><td>56.6</td><td>62.9</td></tr>
-  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>81.0</td><td>51.9</td><td>56.</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>81.0</td><td>51.9</td><td>56.5</td></tr>
   	<tr><td>Triplet</td><td>82.6</td><td>56.9</td><td>63.8</td></tr>
   </tbody></table>
 
