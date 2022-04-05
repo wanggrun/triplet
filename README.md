@@ -83,6 +83,23 @@ bash run.sh  configs/coco_R_50_C4_2x_moco.yaml   xxxxxx/release_detection_ep800.
 ```
 
 
+<em>This repo can achieve a 41.7% AP(box) and a 36.2% AP(mask) on COCO 2017. </em>
+  <table><thead><tr><th>Method</th><th>AP(box)</th><th> AP(mask)</th></tr></thead><tbody>
+  	<tr><td>supervised</td><td>40.0</td><td>34.7</td></tr>
+  	<tr><td>Random</td><td>35.6</td><td>31.4</td></tr>
+  	<tr><td><a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Doersch_Unsupervised_Visual_Representation_ICCV_2015_paper.pdf" target="_blank" rel="noopener noreferrer">Relative-Loc</a></td><td>40.0</td><td>35.0</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/1803.07728" target="_blank" rel="noopener noreferrer">Rotation-Pred</a></td><td>40.0</td><td>34.9</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/1807.05520" target="_blank" rel="noopener noreferrer">DeepCluster</a></td><td>46.9</td><td>200</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/1805.01978" target="_blank" rel="noopener noreferrer">NPID</a></td><td>39.4</td><td>34.5</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2002.05709" target="_blank" rel="noopener noreferrer">SimCLR</a></td><td>39.6</td><td>34.6</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/1911.05722" target="_blank" rel="noopener noreferrer">MoCo</a></td><td>40.9</td><td>35.5</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2003.04297" target="_blank" rel="noopener noreferrer">MoCo v2</a></td><td>40.9</td><td>35.5</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>40.3</td><td>35.1</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>72.5</td><td>300</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>74.3</td><td>1000</td></tr>
+  	<tr><td>Triplet</td><td>41.7</td><td>36.2</td></tr>
+  </tbody></table>
+
 
 ## PASCAL VOC
 
