@@ -5,7 +5,6 @@ This is the code of our paper "Solving Inefficiency of Self-supervised Represent
 
 [Guangrun Wang](https://wanggrun.github.io), [Keze Wang](https://kezewang.com/tutorials.html), [Guangcong Wang](https://wanggcong.github.io), [Philip H.S. Torr](https://www.robots.ox.ac.uk/~phst/), and [Liang Lin](http://www.linliang.net/)
 
-See median_triplet_head.py for the median triplet loss. More updates are coming soon.
 
 
 # About the paper
@@ -25,7 +24,7 @@ An example of SSL training script on ImageNet:
 
 
 ```shell
-bash tools/dist_train.sh configs/selfsup/triplet/r50_bs4096_accumulate4_ep1000_fp16_triplet_gpu12g.py 8
+bash tools/dist_train.sh configs/selfsup/triplet/r50_bs4096_accumulate4_ep1000_fp16_triplet_gpu3090 8
 ```
 
 An example of linear evaluation script on ImageNet:
