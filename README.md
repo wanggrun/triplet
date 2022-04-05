@@ -36,7 +36,7 @@ bash benchmarks/dist_train_linear.sh configs/benchmarks/linear_classification/im
 
 
 <em>This repo can achieve a 73.8% top-1 accuracy for 200 epochs' SSL training and a 75.9% top-1 accuracy for 700-900 epochs' SSL training on Imagenet. </em>
-  <table><thead><tr><th>Method</th><th>top-1 accuracy</th><th> epochs</th></tr></thead><tbody><tr><td><a href="https://github.com/pytorch/vision/blob/master/torchvision/models/resnet.py" target="_blank" rel="noopener noreferrer">ImageNet</a></td><td>87.17</td><td>76.17</td></tr><tr>
+  <table><thead><tr><th>Method</th><th>top-1 accuracy</th><th> epochs</th></tr></thead><tbody><tr>
   	<td>Random</td><td>4.4</td><td>0</td></tr><tr>
   	<td><a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Doersch_Unsupervised_Visual_Representation_ICCV_2015_paper.pdf" target="_blank" rel="noopener noreferrer">Relative-Loc</a></td><td>38.8</td><td>200</td></tr><tr>
   	<td><a href="https://arxiv.org/abs/1803.07728" target="_blank" rel="noopener noreferrer">Rotation-Pred</a></td><td>47.0</td><td>200</td></tr><tr>
