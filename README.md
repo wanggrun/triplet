@@ -118,7 +118,7 @@ bash run.sh  configs/pascal_voc_R_50_C4_24k_moco.yaml   xxxxxx/release_detection
 
 <em>This repo can achieve a 82.6% AP50(box), a 56.9% AP(box), and a 63.8% AP75(box) on VOC07+12. </em>
   <table><thead><tr><th>Method</th><th>AP50</th><th> AP</th><th> AP75</th></tr></thead><tbody>
-  	<tr><td>supervised</td><td>81.6</td><td>54.2</td><td>54.2</td>59.8</tr>
+  	<tr><td>supervised</td><td>81.6</td><td>54.2</td><td>59.8</td></tr>
   	<tr><td>Random</td><td>59.0</td><td>32.8</td><td>31.6</td></tr>
   	<tr><td><a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Doersch_Unsupervised_Visual_Representation_ICCV_2015_paper.pdf" target="_blank" rel="noopener noreferrer">Relative-Loc</a></td><td>80.4</td><td>55.1</td><td>61.2</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/1803.07728" target="_blank" rel="noopener noreferrer">Rotation-Pred</a></td><td>80.9</td><td>55.5</td><td>61.4</td></tr>
