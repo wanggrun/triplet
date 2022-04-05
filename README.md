@@ -37,8 +37,11 @@ bash benchmarks/dist_train_linear.sh configs/benchmarks/linear_classification/im
 
 <em>This repo can achieve a 73.8% top-1 accuracy for 200 epochs' SSL training and a 75.9% top-1 accuracy for 700-900 epochs' SSL training on Imagenet. </em>
   <table><thead><tr><th>Method</th><th>top-1 accuracy</th><th> epochs</th></tr></thead><tbody>
+  	<tr><td>supervised</td><td>76.3</td><td>100</td></tr>
+  	<tr><td>supervised</td><td>78.4</td><td>270</td></tr>
+  	<tr><td>supervised + linear eval</td><td>74.1</td><td>100</td></tr>
   	<tr><td>Random</td><td>4.4</td><td>0</td></tr>
-  	<tr><td><sub><sup><a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Doersch_Unsupervised_Visual_Representation_ICCV_2015_paper.pdf" target="_blank" rel="noopener noreferrer">Relative-Loc</a></sub></sup></td><td><sub><sup>38.8</sub></sup></td><td><sub><sup>200</sub></sup></td></tr>
+  	<tr><td><a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Doersch_Unsupervised_Visual_Representation_ICCV_2015_paper.pdf" target="_blank" rel="noopener noreferrer">Relative-Loc</a></td><td>38.8</td><td>200</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/1803.07728" target="_blank" rel="noopener noreferrer">Rotation-Pred</a></td><td>47.0</td><td>200</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/1807.05520" target="_blank" rel="noopener noreferrer">DeepCluster</a></td><td>46.9</td><td>200</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/1805.01978" target="_blank" rel="noopener noreferrer">NPID</a></td><td>56.6</td><td>200</td></tr>
@@ -53,6 +56,12 @@ bash benchmarks/dist_train_linear.sh configs/benchmarks/linear_classification/im
   	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>71.5</td><td>200</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>72.5</td><td>300</td></tr>
   	<tr><td><a href="https://arxiv.org/abs/2006.07733" target="_blank" rel="noopener noreferrer">BYOL </a></td><td>74.3</td><td>1000</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2011.10566" target="_blank" rel="noopener noreferrer">SimSiam </a></td><td>68.1</td><td>100</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2011.10566" target="_blank" rel="noopener noreferrer">SimSiam </a></td><td>70.0</td><td>200</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2011.10566" target="_blank" rel="noopener noreferrer">SimSiam </a></td><td>70.8</td><td>400</td></tr>
+  	<tr><td><a href="https://arxiv.org/abs/2011.10566" target="_blank" rel="noopener noreferrer">SimSiam </a></td><td>71.3</td><td>800</td></tr>
+  	<tr><td>Triplet</td><td>73.8</td><td>200</td></tr>
+  	<tr><td>Triplet</td><td>75.9</td><td>700-900</td></tr>
   </tbody></table>
 
 
