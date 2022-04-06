@@ -30,8 +30,8 @@ bash tools/dist_train.sh configs/selfsup/triplet/r50_bs4096_accumulate4_ep1000_f
 An example of linear evaluation script on ImageNet:
 
 ```shell
-python tools/extract_backbone_weights.py  xxxxxxxxx//ssl_ep940.pth    xxxxxx/release_smooth_ep940.pth
-bash benchmarks/dist_train_linear.sh configs/benchmarks/linear_classification/imagenet/r50_last_cos.py  xxxxxx/release_smooth_ep940.pth
+python tools/extract_backbone_weights.py  xxxxxxxxx/ssl_ep940.pth    xxxxxx/release_smooth_ep940.pth
+bash benchmarks/dist_train_linear.sh configs/benchmarks/linear_classification/imagenet/r50_last_cos_for_MoreSslEpoch.py  xxxxxx/release_smooth_ep940.pth
 ```
 
 
