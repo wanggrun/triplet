@@ -18,6 +18,17 @@ This is the code of our paper "Solving Inefficiency of Self-supervised Represent
 
 # Experiments
 
+## Our pretrained models
+
+Just list a few pretrained models here:
+
+| Model            | Top 1 Acc | Download                                                                          |
+|:-----------------|:------------|:---------------------------------------------------------------------------------:|
+| shorter epochs   | 73.8%     | [:arrow_down:](https://drive.google.com/file/d/1ZKXgFIrnREuX94l8ARQF5ID9gTwleWjr/view?usp=sharing) |
+| longer epochs    | 75.9%     | [:arrow_down:](https://drive.google.com/file/d/19nO2IrT856-0N9BUyZlOrmwafYx-aHNe/view?usp=sharing) |
+
+
+
 ## ImageNet
 
 An example of SSL training script on ImageNet:
