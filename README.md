@@ -149,6 +149,7 @@ We next verify the effectiveness of our method on a more extensive data set, [SY
 
 Currently, SYSU-30k supports both [Google drive](https://drive.google.com/drive/folders/1MTxZ4UN_mbxjByZgcAki-H10zDzzeyuJ) collection and [Baidu Pan](https://pan.baidu.com/s/1Y9phSZ5jy02szFZB_KqlyQ#list/path=%2F) (code: 1qzv) collection.
 
+According to the results of our latest run with the following scripts, the accuracy will be higher than the results we reported in our paper.
 
 ### Training and extracting weights:
 
