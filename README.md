@@ -161,6 +161,7 @@ python tools/extract_backbone_weights.py   work_dirs/selfsup/triplet/r50_bs4096_
 ### Testing:
 
 ```shell
+cd Self-Supervised-ReID
 python test_sysu_combine.py  --gpu_ids 0  --name  debug   --test_dir   /scratch/local/ssd/guangrun/sysu_test_resize    --which_epoch 10  --batchsize 100
 ```
 
