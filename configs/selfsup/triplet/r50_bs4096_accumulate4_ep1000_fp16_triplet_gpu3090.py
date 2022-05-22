@@ -34,8 +34,8 @@ data_source_cfg = dict(
     type='ImageNet',
     memcached=True,
     mclient_path='/mnt/lustre/share/memcached_client')
-data_train_list = 'data/imagenet/meta/train.txt'
-data_train_root = 'data/imagenet/train'
+data_train_list = 'data/sysu30k/train.txt'
+data_train_root = 'data/sysu30k/sysu30k'
 dataset_type = 'TripletDataset'
 img_norm_cfg = dict(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 train_pipeline = [
@@ -80,7 +80,7 @@ train_pipeline2[5]['p'] = 0.2 # solarization
 
 data = dict(
     imgs_per_gpu=196,  # total 256*8(gpu)*2(interval)=4096
-    workers_per_gpu=14,
+    workers_per_gpu=8,
     train=dict(
         type=dataset_type,
         data_source=dict(
@@ -91,7 +91,7 @@ data = dict(
         prefetch=prefetch,
     ))
 # additional hooks
-update_interval = 4  # interval for accumulate gradient
+update_interval = 8  # interval for accumulate gradient
 custom_hooks = [
     dict(type='TripletHook', end_momentum=1., update_interval=update_interval)
 ]
@@ -110,9 +110,10 @@ lr_config = dict(
     policy='CosineAnnealing',
     min_lr=0.,
     warmup='linear',
-    warmup_iters=10,
+    warmup_iters=2,
     warmup_ratio=0.0001, # cannot be 0
     warmup_by_epoch=True)
-checkpoint_config = dict(interval=10)
+checkpoint_config = dict(interval=1)
 # runtime settings
-total_epochs = 1000
+total_epochs = 10
+#load_from="/scratch/local/ssd/guangrun/tmp/release_ep940.pth"
